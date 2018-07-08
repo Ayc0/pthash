@@ -19,6 +19,17 @@ const hash = pthash("password");
 console.log(hash)
 ```
 
+If you don't like the suppa duppa kewl fn that this module provides, you cann pass your own algorithm function:
+
+```js
+const pthash = require('pthash');
+
+const hash = pthash("password", algorithmFn);
+
+console.log(hash)
+```
+
+
 ## Tests
 
 Just run `npm test`
