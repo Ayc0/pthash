@@ -5,6 +5,6 @@
  * @return {String} result the hashed string
 */
 
-module.exports = function(str) {
-        return String(str);
+module.exports = function(str, fn = String) {
+        return fn(str);
 }
