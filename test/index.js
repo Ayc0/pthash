@@ -15,3 +15,8 @@ describe("#pthash", function() {
   });
 });
     
+describe("#pthash.fn", function() {
+  it("SUPPA DUPPA KEWL FN", function() {
+    pthash("WOW", STRING).should.equal("WOW");
+  });
+})
